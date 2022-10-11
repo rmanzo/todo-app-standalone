@@ -9,3 +9,6 @@ list:
 
 cleft:
 	go run ./cmd/reprogramable -cleft
+
+build:
+	go build -o bin/main ./cmd/reprogramable
