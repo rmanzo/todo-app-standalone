@@ -1,1 +1,1 @@
-Reprogramable is an application that monitors your calories over the course of a week and informs you of how many calories you have left
+todo cli app.
