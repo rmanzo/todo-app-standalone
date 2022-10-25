@@ -1,14 +1,17 @@
 run:
-	go run ./cmd/reprogramable
+	go run ./cmd/cli
 
 add:
-	go run ./cmd/reprogramable -add 180
+	go run ./cmd/cli -add "This is a test task"
 
 list:
-	go run ./cmd/reprogramable -list
+	go run ./cmd/cli -list
 
 cleft:
-	go run ./cmd/reprogramable -cleft
+	go run ./cmd/cli -cleft
 
-build:
-	go build -o bin/main ./cmd/reprogramable
+buildcli:
+	go build -o bin/cli ./cmd/cli
+
+buildserver:
+	go build -o bin/server ./cmd/server
